@@ -11,6 +11,7 @@ header {
 h1 {
     text-align: center;
     color: red;
+    margin-top: 0px;
 }
 
 h3 {
@@ -34,10 +35,12 @@ footer {
     border-radius: 1em;
     padding: 1em;
     position: absolute;
-    top: 50%;
+    top: 61%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) 
+    transform: translate(-50%, -50%);
+    border: 10px solid black;
+    margin-bottom: 10px;
 }
 
 #tdldimglabel{
@@ -99,4 +102,22 @@ footer {
     left: 495px;
     top: 177px;
     z-index: 0;
+}
+
+#tdtextboxlable{
+    width: "80%";
+}
+
+#tdldimginput{
+    width: 61%
+}
+
+#tdbtns{
+    width: 20%;
+    text-align: left;
+}
+
+#Comments{
+    width: 622px;
+    text-align: center;
 }
